@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/*
+Theme Name: Crowdfunding Donation
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-crowdfunding-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Crowdfunding Donation is a free theme with a modern design for charity organizations donations, funds, non-profit organizations, volunteers, campaign charity, church, online charity, crowdfunding, and more. Along with a sophisticated and clean design that mainly focuses on the key content, this theme brings you a minimal and elegant website that professionally portrays your work online. A lot of personalization options are there to tweak the design. The responsive design will make your website look incredible on any device whether it is a mobile phone or a laptop screen. This beautiful theme has well-written HTML codes written for the proper functioning of your website. Besides that, these are optimized codes that will result in a lightweight website giving you faster page load time. These secure and clean codes enhance the overall performance of your website as well as deliver an outstanding user experience. There is a catchy banner and well-crafted sections such as the Testimonial section as well as Team. Developers have made it mobile-friendly so that it is easily accessible through mobile devices as well. WPML and RTL compatibility of this theme makes it translation ready and social media options of this Bootstrap-based theme will make you have tremendous options for effective promotion.
+Version: 0.1
+Tested up to: 5.8
+Requires PHP: 7.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: charity-zone
+Text Domain: crowdfunding-donation
+Tags: custom-logo, one-column, two-columns, wide-blocks, custom-background, custom-colors, custom-header, custom-menu, block-styles, sticky-post, footer-widgets, editor-style, featured-images, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, photography, portfolio
+
+Crowdfunding Donation WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2021.
+Crowdfunding Donation WordPress Theme is released under the terms of GNU GPL
+*/
+
+body{
+    color: #626c84;
+}
+
+.navbar-brand, 
+.sticky .entry-title::before, 
+.donate-btn a, 
+.main-navigation .menu > li > a:hover, 
+.main-navigation .sub-menu, 
+#button, 
+.sidebar input[type="submit"], 
+.comment-respond input#submit, 
+.post-navigation .nav-previous a:hover, 
+.post-navigation .nav-next a:hover, 
+.posts-navigation .nav-previous a:hover, 
+.posts-navigation .nav-next a:hover, 
+.woocommerce .woocommerce-ordering select, 
+.woocommerce ul.products li.product .onsale, 
+.woocommerce span.onsale, .pro-button a, 
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt, 
+.wp-block-button__link, 
+.serv-box:hover, 
+.woocommerce-account .woocommerce-MyAccount-navigation ul li, 
+.btn-primary, 
+.toggle-nav.mobile-menu button,
+.sidebar button[type="submit"],
+.sidebar .tagcloud a:hover,
+.socialmedia{
+    background: #18bfc3;
+}
+
+a,.sidebar a:hover, 
+#colophon a:hover,
+#colophon a:focus, 
+p.price, 
+.woocommerce ul.products li.product .price, 
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price, 
+.woocommerce-message::before, 
+.woocommerce-info::before,
+.donate-btn a:hover,
+.causes-inner-box li a{
+    color: #18bfc3;
+}
+
+.wp-block-quote, 
+.wp-block-quote:not(.is-large):not(.is-style-large), 
+.wp-block-pullquote,.btn-primary{
+    border-color: #18bfc3 !important;
+}
+
+a, h1, h2, h3, h4, h5, h6{
+    color: #041d57;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+}
+
+.sidebar h5,
+#button:active,
+#button:hover,
+.donate-btn a:hover,
+#colophon,
+.main-navigation .sub-menu > li > a:hover, 
+.main-navigation .sub-menu > li > a:focus{
+    background: #041d57;
+}
+
+.page-template-custom-front-page .head-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.head-menu .nav {
+    justify-content: flex-end;
+}
+
+.page-template-custom-front-page .main-navigation .menu > li > a,.social-link i,.socialmedia p,.socialmedia i{
+    color: #fff;
+}
+
+#top-slider .owl-carousel .owl-item img {
+    opacity: 0.5;
+}
+
+.slider-inner-box {
+    right: 30%;
+    left: 30%;
+}
+
+.slider-inner-box a h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: none;
+}
+
+#mission-sec {
+    padding: 40px 0;
+}
+
+#mission-sec h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.counterbox {
+    background: #39bfc3;
+    padding: 20px 5px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.counterbox h4 {
+    font-size: 35px;
+    color: #fff;
+}
+
+#mission-sec .donate-btn{
+    text-align: left;
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .sidenav{
+        background: #041d57;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+    .toggle-nav i,.main-navigation .menu > li > a {
+        color: #fff;
+    }
+    .slider-inner-box {
+        right: 15%;
+        left: 15%;
+    }
+    .slider-inner-box a h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .sidenav{
+        background: #041d57;
+    }
+    .toggle-nav.mobile-menu {
+        text-align: right;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+    .toggle-nav i,.main-navigation .menu > li > a {
+        color: #fff;
+    }
+    .slider-inner-box {
+        right: 15%;
+        left: 15%;
+    }    
+    .social-link {
+        margin: 0;
+    }
+}
